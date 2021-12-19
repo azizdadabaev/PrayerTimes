@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_fajr"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fajr"
+            android:textSize="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:id="@+id/fajr_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textSize="20sp"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_sunrise"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunrise"
+            android:textSize="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:id="@+id/sunrise_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textSize="20sp"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_dhuhr"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhuhr"
+            android:textSize="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:id="@+id/dhuhr_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textSize="20sp"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_asr"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asr"
+            android:textSize="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:id="@+id/asr_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textSize="20sp"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_maghrib"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maghrib"
+            android:textSize="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:id="@+id/maghrib_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textSize="20sp"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_isha"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Isha"
+            android:textSize="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"/>
+
+        <TextView
+            android:id="@+id/isha_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textSize="20sp"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+</LinearLayout>
